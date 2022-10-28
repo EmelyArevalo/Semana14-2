@@ -1,0 +1,12 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Trispace:wght@200&display=swap');
+
+* {
+    font-family: 'Trispace', sans-serif;
+}
+
+
+body {
+    background-color: lightpink;
+    color: black;
+}
