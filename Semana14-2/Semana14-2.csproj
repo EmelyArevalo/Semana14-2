@@ -67,13 +67,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Contactenos.aspx" />
     <Content Include="default.aspx" />
     <Content Include="img\favicon.ico" />
+    <Content Include="img\image-Fridapaint2.jpeg" />
+    <Content Include="img\image-paisaje.jpg" />
+    <Content Include="img\img-Frida.jpg" />
+    <Content Include="img\img-Fridapaint1.jpg" />
+    <Content Include="img\img-Fridapaint3.jpg" />
+    <Content Include="Información.html" />
     <Content Include="js\functions.js" />
     <Content Include="css\Styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contactenos.aspx.cs">
+      <DependentUpon>Contactenos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contactenos.aspx.designer.cs">
+      <DependentUpon>Contactenos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
